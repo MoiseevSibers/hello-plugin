@@ -1,4 +1,4 @@
-(function( $ ) {
+(function ($) {
     'use strict';
     $(document).ready(function () {
 
@@ -13,12 +13,12 @@
             dataType: 'json',
             success: function (response) {
                 if (obj_params.isPage !== '') {
-                    if (response.data.lastPostId  === obj_params.postId) {
-                        console.log("-----",'hello world');
+                    if (response.data.lastPostId === obj_params.postId) {
+                        console.log("-----", 'hello world');
                     }
                 }
             }
         });
     });
 
-})( jQuery );
+})(jQuery);

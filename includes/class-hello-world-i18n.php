@@ -9,7 +9,6 @@
 class Hello_World_i18n {
 
 
-
 	public function load_plugin_textdomain() {
 
 		load_plugin_textdomain(
@@ -19,7 +18,6 @@ class Hello_World_i18n {
 		);
 
 	}
-
 
 
 }

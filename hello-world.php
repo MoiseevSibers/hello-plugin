@@ -68,4 +68,5 @@ function run_hello_world() {
 	$plugin->run();
 
 }
+
 run_hello_world();
